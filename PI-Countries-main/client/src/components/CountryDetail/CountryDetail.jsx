@@ -5,9 +5,9 @@ import {useEffect} from 'react';
 import './CountryDetail.css'
 
 export default function CountryDetail() {
-  const dispatch = useDispatch()
-  const {countryDetail} = useSelector((state) => state)
-  let {id, name, img, region, subregion, capital, population, area, activities} = countryDetail
+  const dispatch = useDispatch();
+  const {countryDetail} = useSelector((state) => state);
+  let {id, name, img, region, subregion, capital, population, area, activities} = countryDetail;
 
   useEffect(() => {
     return () => {
@@ -54,27 +54,6 @@ export default function CountryDetail() {
     </>
     
   )
-}
+};
 
 
-/* 
-{
-  activities.length ? 
-  (
-    <div className='activities-container'>
-    <h3>Turistic Activities: </h3>
-    {activities.map((a) => 
-      <div>
-        <h4>{a.name}</h4>
-        <p>difficulty: {a.difficulty}</p>
-        <p>duration: {a.duration}</p>
-        <p>season: {a.season}</p>
-      </div>
-    )}
-    </div>
-  )
-  : <div className='non-activities'>
-      <h3>Turistic Activities: </h3>
-      <p>{name} dosen't have any activities saved.</p>
-    </div>
-} */

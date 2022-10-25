@@ -7,9 +7,9 @@ function fixDetailRelations(country) {
         duration: a.duration,
         season: a.season
       }
-    })
+    });
     country.dataValues.activities = fixedActivities
-    return {...country.dataValues}
+    return {...country.dataValues};
   }
   return country
 }

@@ -8,4 +8,4 @@ export default function HeaderForm() {
       <Link to='/main'><button className='header-btn'>countries list</button></Link>
     </div>
   )
-}
+};

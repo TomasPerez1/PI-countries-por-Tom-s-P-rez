@@ -8,4 +8,4 @@ export default function Header() {
       <Link to='/create_activity'><button className='header-btn'>create activity</button></Link>
     </div>
   )
-}
+};

@@ -1,10 +1,10 @@
-import {Link, NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import {useDispatch} from "react-redux";
 import {getCountryDetail} from "../../../../Redux/actions.js";
-import './Country.css'
+import './Country.css';
 
 export default function Country(props) {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   const {id, name, img, region} = props.country;
   
   return (
@@ -26,4 +26,4 @@ export default function Country(props) {
       <p className="region">Region: {region}</p>
     </div>
   )
-}
+};

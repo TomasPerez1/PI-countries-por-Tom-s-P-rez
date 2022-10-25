@@ -1,4 +1,4 @@
-const axios = require('axios')
+const axios = require('axios');
 
 async function loadData() {
   let info = await axios.get('https://restcountries.com/v3/all')

@@ -1,9 +1,9 @@
-import { useEffect } from "react"
-import {useDispatch} from 'react-redux'
-import { getActivities, getCountries } from "../../Redux/actions"
+import { useEffect } from "react";
+import { useDispatch } from 'react-redux';
+import { getActivities, getCountries } from "../../Redux/actions";
 import List from "./List/List.jsx";
 import Searchbar from "./Searchbar/Searchbar";
-import './Main.css'
+import './Main.css';
 
 export default function Main() {
   const dispatch = useDispatch()
@@ -18,4 +18,4 @@ export default function Main() {
       <List/> 
     </div>
   )
-}
+};

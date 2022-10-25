@@ -1,21 +1,21 @@
 import {useState} from "react";
 import { useDispatch, useSelector} from "react-redux";
-import {Link, Redirect} from "react-router-dom";
+import {Redirect} from "react-router-dom";
 import {postActivity} from "../../Redux/actions.js";
 import isValidForm from "./isValidform.js";
 import fixForm from "./fixForm.js";
-import './CreateActivity.css'
+import './CreateActivity.css';
 
 export default function CreateActivity() {
   const dispatch = useDispatch();
   const [form, setForm] = useState({});
   const [errs, setErrs] = useState({});
   const [countries, setCountries] = useState([]);
-  const [redirect, setRedirect] = useState(false)
+  const [redirect, setRedirect] = useState(false);
   
-  let {formCountries, activities} = useSelector((state) => state)
+  let {formCountries, activities} = useSelector((state) => state);
 
-  if(redirect) return (<Redirect to='/redirect'/>)
+  if(redirect) return (<Redirect to='/redirect'/>);
 
   function onFormChange(evento) {
     setForm({
@@ -144,4 +144,4 @@ export default function CreateActivity() {
       </form>
     </div>
   )
-}
+};

@@ -1,5 +1,5 @@
-import {Link} from 'react-router-dom'
-import './Redirect.css'
+import {Link} from 'react-router-dom';
+import './Redirect.css';
 
 export default function Redirect() {
   return (
@@ -13,4 +13,4 @@ export default function Redirect() {
       </div>
     </div>
   )
-}
+};

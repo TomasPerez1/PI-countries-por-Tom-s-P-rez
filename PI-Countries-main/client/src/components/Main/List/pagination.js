@@ -1,4 +1,3 @@
-
 export default function pagination(countries) {
   let paginatedCountries = []
   for(let i = 0; i < countries.length; i = i + 10) {
@@ -12,4 +11,5 @@ export default function pagination(countries) {
     paginatedCountries.push(set)
   }
   return paginatedCountries
-}
+};
+

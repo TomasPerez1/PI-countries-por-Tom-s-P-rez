@@ -1,5 +1,3 @@
-/* import { useSelector } from "react-redux";
-const  */
 export default function isValidForm(values, activities) {
   let err = {};
   
@@ -23,4 +21,5 @@ export default function isValidForm(values, activities) {
   if(!values.season || values.season === 'default') err.season = 'select a season';
 
   return err
-}
+};
+
