@@ -1,0 +1,14 @@
+.header-div {
+  color: azure;
+  background-color: rgb(40, 26, 169);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.header-btn {
+  margin-right: 60px
+}

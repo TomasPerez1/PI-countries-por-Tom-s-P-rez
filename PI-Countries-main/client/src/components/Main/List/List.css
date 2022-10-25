@@ -1,0 +1,67 @@
+.list-conatiner {
+  background-color: rgb(230, 238, 244);
+  background-color: rgb(176, 208, 233);
+  margin: 0;
+  padding: 0;
+  width: 1100px;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.countries-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination {
+  padding: 10px;
+  margin: 5px;
+  width: 1070px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.n-btn {
+  background-color: whitesmoke;
+  border: 1.5px solid rgb(53, 51, 51);
+  height: 28px;
+  width: 30px;
+  margin: 2px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-style: oblique;
+}
+.n-btn:hover {
+  background-color: rgb(53, 51, 51);
+  border: 1.5px solid whitesmoke;
+  color: white;
+  cursor: pointer;
+}
+
+.active-n-btn {
+  color: rgb(255, 255, 255);
+  border: 1.5px solid black;
+  background-color: royalblue;
+  height: 28px;
+  width: 30px;
+  margin: 2px;
+  border-radius: 5px;
+  font-style: oblique;
+  font-size: 16px;
+}
+
+
+.previous-next {
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+.previous-next:hover {
+  cursor: pointer;
+}
+.previous-next:disabled {
+  cursor: default;
+  background-color: rgb(105, 105, 105);
+}

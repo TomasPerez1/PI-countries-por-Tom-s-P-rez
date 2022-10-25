@@ -1,0 +1,37 @@
+.country {
+  border: 2px solid rgb(90, 167, 226);
+  background-color: rgb(216, 237, 250);
+  border-radius: 10px;
+  height: 230px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.flag {
+  display: flex;
+  height: 120px;
+  width: 180px;
+  border: 0.5px solid black;
+}
+
+.country-link {
+  text-decoration: none;
+}
+.country-name {
+  color: rgb(50, 50, 228);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 2px;
+}
+.country-name:hover {
+  background-color: rgb(50, 50, 228);
+  color: rgb(220, 210, 210);
+}
+
+.region {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+  font-size: 17px;
+}
